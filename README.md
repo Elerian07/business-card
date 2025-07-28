@@ -13,11 +13,6 @@ Responsive layout for various screen sizes
 
 Material Design components
 
-📱 Screenshots
-Add a screenshot here (optional)
-You can include a screenshot by adding an image to your repo and using:
-
-![App Screenshot](images/screenshot.png)
 
 🚀 Getting Started
 
@@ -27,17 +22,18 @@ Flutter SDK installed (https://flutter.dev/docs/get-started/install)
 Android Studio or any preferred IDE
 
 Installation
-Clone the repo:
 
-git clone https://github.com/your-username/business-card-app.git
-cd business-card-app
+    Clone the repo:
 
-Get dependencies:
+      -git clone https://github.com/your-username/business-card-app.git
+      
+    cd business-card-app
 
-flutter pub get
-Run the app:
-
-flutter run
+    Get dependencies:
+       -flutter pub get
+  
+    Run the app:
+     -flutter run
 
 
 🛠️ Customization
@@ -52,14 +48,17 @@ Font: Ensure PlaywriteHU is added in your pubspec.yaml with the correct path
 📁 Assets
 Make sure you have the following in your pubspec.yaml:
 
-flutter:
-  assets:
-    - images/mohamed.jpg
+  flutter:
+
+    - assets:
+     - images/mohamed.jpg
 
   fonts:
+  
     - family: PlaywriteHU
       fonts:
         - asset: fonts/PlaywriteHU.ttf
+        
 Replace PlaywriteHU.ttf with your actual font file name and location.
 
 👨‍💻 Author
